@@ -13,7 +13,7 @@
 }
 /*start header-top*/
 .main-header{
-	background-color: lightblue;
+	
 	width: 100%;
 	height: 150px;
 }
@@ -48,6 +48,7 @@
 	border-radius: 5px;
 	border: none;
 	padding: 12px 12px 13px 12px;
+	border: 1px solid black;
 }
 .card{
 	position: relative;
@@ -79,4 +80,29 @@
 	left: 100px;
 
 }
-/*end header*/
+/*end header-top*/
+/*start main*/
+.main-top{
+	width: 100%;
+	display: inline-block;
+	position: relative;
+	justify-content: space-around;
+
+}
+.menu-nav{
+	text-align: left;
+	background-color: lightgreen;
+}
+.menu-nav li{
+
+	display: inline-block;
+	justify-content: space-between;
+	margin: 0 auto;
+	margin: 10px 20px;
+
+
+}
+.menu-nav li a{
+	text-decoration: none;
+	color: black;
+}
