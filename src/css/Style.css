@@ -90,19 +90,30 @@
 
 }
 .menu-nav{
-	text-align: left;
+	text-align: center;
 	background-color: lightgreen;
+
 }
 .menu-nav li{
 
+	font-weight: 700;
+	font-size: 20px;
 	display: inline-block;
 	justify-content: space-between;
 	margin: 0 auto;
 	margin: 10px 20px;
+	text-transform: uppercase;
 
 
 }
 .menu-nav li a{
 	text-decoration: none;
 	color: black;
+
+}
+.searchI{
+	display: inline-block;
+	position: absolute;
+	top:14px;
+	right: 12px;
 }
